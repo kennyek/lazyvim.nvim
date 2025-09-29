@@ -4,7 +4,6 @@ return {
     dependencies = {
       "nvim-neotest/neotest-jest",
       "marilari88/neotest-vitest",
-      "adrigzr/neotest-mocha",
     },
     opts = function(_, opts)
       table.insert(
