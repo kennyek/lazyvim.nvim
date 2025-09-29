@@ -5,3 +5,9 @@
 vim.g.snacks_animate = false
 vim.g.root_spec = { { ".git", "lua", "pnpm-lock.yaml", "yarn.lock", "package-lock.json" }, "lsp", "cwd" }
 vim.opt.clipboard = "unnamedplus"
+
+vim.filetype.add({
+  pattern = {
+    [".env.*"] = "dotenv",
+  },
+})
